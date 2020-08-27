@@ -14,17 +14,20 @@ attr_accessor :name
   end
   
   def songs
-     Song.all.select{|song| song.genre == self}
-   end
+    # Song.all.select{|song| song.genre == self}
+   
    
     Song.all.select do |song|
       song.genre == self
     end
+  end
    
   def artists
+    songs.collect do |song| 
+      song.artist
+    end
     
-    
-    self.songs.collect { |song| song.artist }
+    #self.songs.collect { |song| song.artist }
     
   end
 end
