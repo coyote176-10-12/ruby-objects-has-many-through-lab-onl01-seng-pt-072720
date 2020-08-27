@@ -28,7 +28,8 @@ class Artist
   end
     
   def genre
-    songs.map {|song| song.genre}
+    songs.map do |song|
+      song.artist
   end
 
 end
