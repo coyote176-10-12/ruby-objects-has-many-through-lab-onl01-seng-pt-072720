@@ -26,6 +26,7 @@ end
 
 def patients
   
+  
 
 end
 
