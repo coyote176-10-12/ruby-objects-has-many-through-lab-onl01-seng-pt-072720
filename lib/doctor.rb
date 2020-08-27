@@ -25,7 +25,8 @@ def new_appointment(date, patient)
 end
 
 def patients
-  appointment.collect
+  appointment.collect do |appointment|
+    
   
 
 end
