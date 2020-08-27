@@ -26,13 +26,9 @@ def new_appointment(date, patient)
 end
 
 def patients
-  appointment.collect do |appointment|
+  appointments.collect do |appointment|
     appointment.patient
   end
-   appointments.map do |appointment|
-      appointment.patient
-  
-  
 end
   
 
