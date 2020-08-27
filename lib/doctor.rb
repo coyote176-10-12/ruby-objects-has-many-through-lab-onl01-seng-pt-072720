@@ -29,6 +29,9 @@ def patients
   appointment.collect do |appointment|
     appointment.patient
   end
+  
+  
+  
 end
   
 
