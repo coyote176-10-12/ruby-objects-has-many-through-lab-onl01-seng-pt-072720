@@ -23,5 +23,7 @@ attr_accessor :name
    
   def artists
     
+    
+    
   end
 end
