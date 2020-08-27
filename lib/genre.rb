@@ -13,4 +13,6 @@ attr_accessor :name
     @@all
   end
   
+  def songs
+  
 end
