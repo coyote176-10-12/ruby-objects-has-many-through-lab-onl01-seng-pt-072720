@@ -15,9 +15,7 @@ attr_accessor :name
   
   def songs
     # Song.all.select{|song| song.genre == self}
-   
-   
-    Song.all.select do |song|
+   Song.all.select do |song|
       song.genre == self
     end
   end
