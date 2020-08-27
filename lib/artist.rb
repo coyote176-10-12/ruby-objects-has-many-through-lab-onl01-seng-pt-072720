@@ -29,7 +29,7 @@ class Artist
     
   def genres
     songs.collect do |song|
-      song.artist
+      song.genres
   end
 end
 
