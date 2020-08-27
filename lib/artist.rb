@@ -13,11 +13,13 @@ class Artist
     @@all
   end
   
+  #def new_song(song, genre)
+   # Song.new(name, self, genre)
+ # end
+  
   def new_song(song, genre)
     Song.new(name, self, genre)
   end
-  
-  
   
   def songs 
     Song.all.select do |song|
