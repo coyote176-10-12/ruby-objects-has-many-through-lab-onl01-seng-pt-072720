@@ -13,13 +13,12 @@ def self.all
   @@all
 end
 
-
-
-def appointments
-  
+ def appointments
+  appointments.all.select do |appointment|
+    appointment.doctor == self
+  end
 end
-
-
+  
 
 def new_appointment
 end
