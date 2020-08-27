@@ -1,4 +1,8 @@
-clas Doctor 
+class Doctor
+
+@@all= []
+
+def initialize(nmae)
 
 
 
